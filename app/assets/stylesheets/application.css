@@ -18,7 +18,7 @@
     background-color: #031D44!important;
 }
 
-.jumbotron {
+.jumbotron.home {
     background-color: #04395E!important;
     background-image: url("propicONE.jpg");
     background-position: right;
@@ -62,5 +62,3 @@
 .lead {
     padding-left: 10px;
 }
-
-
