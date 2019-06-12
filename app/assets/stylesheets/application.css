@@ -14,8 +14,12 @@
  *= require_self
  */
 
- body {
+body {
     background-color: #031D44!important;
+}
+
+h1 {
+  color: #DAB785;
 }
 
 .jumbotron.home {
@@ -65,8 +69,18 @@
 
 .blog {
   color: #DAB785;
+  background-color: #04395E;
+  height: 100%;
+}
+
+.form-group {
+  color: #DAB785;
 }
 
 .blog p {
   font-size: 20px;
+}
+
+.navbar-collapse li a:hover {
+  background-color: #04395E!important;
 }
