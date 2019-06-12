@@ -62,3 +62,11 @@
 .lead {
     padding-left: 10px;
 }
+
+.blog {
+  color: #DAB785;
+}
+
+.blog p {
+  font-size: 20px;
+}
