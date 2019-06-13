@@ -1,3 +1,3 @@
-class Article < ApplicationRecord 
-    validates_presence_of :title, :body
+class Article < ApplicationRecord
+    validates_presence_of :title, :description
 end
