@@ -3,9 +3,9 @@ require 'rails_helper'
 RSpec.describe 'As a visitor after clicking on blog' do
 
     before :each do
-        @article_1 = Article.create(title: "Article Title 1", description: 'Article Description 1', body: "Article Body 1")
-        @article_2 = Article.create(title: "Article Title 2", description: 'Article Description 2', body: "Article Body 2")
-        @article_3 = Article.create(title: "Article Title 3", description: 'Article Description 3', body: "Article Body 3")
+        @article_1 = Article.create(title: "Article Title 1", description: 'Article Description 1')
+        @article_2 = Article.create(title: "Article Title 2", description: 'Article Description 2')
+        @article_3 = Article.create(title: "Article Title 3", description: 'Article Description 3')
     end
 
     it 'displays all articles' do
