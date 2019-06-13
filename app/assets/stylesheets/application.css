@@ -88,3 +88,7 @@ h1 {
 .navbar-collapse li a:hover {
   background-color: #04395E!important;
 }
+
+.user-form {
+  width: 320px!important;
+}
